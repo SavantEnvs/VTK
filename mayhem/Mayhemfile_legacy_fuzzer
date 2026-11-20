@@ -1,0 +1,9 @@
+project: savantenvs/VTK
+target: legacy_fuzzer
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/legacy_fuzzer/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/legacy_fuzzer
+    libfuzzer: true
+    timeout: 10

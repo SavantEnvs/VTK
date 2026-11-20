@@ -1,0 +1,4 @@
+# Build directories written by mayhem/build.sh (removed by git clean -ffdX).
+/build-vtk/
+/build-fuzz/
+/out/
